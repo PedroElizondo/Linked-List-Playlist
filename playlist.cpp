@@ -17,10 +17,20 @@ class playlist{
 
 playlist::addSong(Songs song)
 {
+  //if the playlist is empty
+  // if(head == nullptr == tail){
+  // tail = new Songs(song);
+  
+  //if there's only one song 
+
+  //if there's multiple songs
+  
   if(song.next = nullptr)
   {
     song.next -> next = new * song
   }
+
+
 }
 
 playlist::removeSong(Songs song)
