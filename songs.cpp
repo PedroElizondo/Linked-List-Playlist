@@ -6,7 +6,7 @@ class Songs{
   Songs * next;
 
   public:
-  void Songs();
+  Songs();
 };
 
 Songs::Songs(string iname = "Among Us Beatbox Rap Battle", string iartist = "LilSussyFartBoi", float iduration = 694.20, bool ifavorite = true, Songs * inext = nullptr)
