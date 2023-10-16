@@ -8,6 +8,7 @@ class playlist{
 
   public:
   // Methods that you'll be implementing
+  playlist();
   void addSong();
   void removeSong();
   void displayPlaylist();
@@ -15,7 +16,7 @@ class playlist{
 
 playlist::addSong()
 {
-
+  
 }
 
 playlist::removeSong()
