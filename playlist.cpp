@@ -11,16 +11,19 @@ class playlist{
   // Methods that you'll be implementing
   playlist();
   void addSong(Songs song);
-  void removeSong();
+  void removeSong(Songs song);
   void displayPlaylist();
-];
+};
 
-playlist::addSong()
+playlist::addSong(Songs song)
 {
-  
+  if(song.next = nullptr)
+  {
+    song.next -> next = new * song
+  }
 }
 
-playlist::removeSong()
+playlist::removeSong(Songs song)
 {
 
 }
