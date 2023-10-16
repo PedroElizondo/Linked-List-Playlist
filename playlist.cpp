@@ -5,11 +5,12 @@ class playlist{
   string currentsongPlaylist;
   Song * head;
   Song * tail;
+  int numItems;
 
   public:
   // Methods that you'll be implementing
   playlist();
-  void addSong();
+  void addSong(Songs song);
   void removeSong();
   void displayPlaylist();
 ];
